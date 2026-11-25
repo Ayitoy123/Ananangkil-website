@@ -28,7 +28,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position:static ;
     top: 0;
     z-index: 100;
 }
@@ -136,6 +136,7 @@ section a:hover{
     font-size: 1.8rem;
     margin-top: 0;
     color: #130101;
+    
 }
 #about p {
     color:  rgb(1, 65, 20);;
@@ -158,17 +159,20 @@ section a:hover{
 }
 
 .card {
-    background-color: #0cdd04;
+    background-color: #14532D;
     padding: 25px;
     border-radius: 12px;
-    border-top: 5px solid #16A34A;
+    border-top: 5px solid #000000;
     box-shadow: 0 4px 10px rgba(20, 83, 45, 0.15);
     flex: 1 1 280px;
+    font-weight: bold;
 }
 
 .card h3 {
     font-size: 1.5rem;
     margin: 12px 0 8px 0;
+    font-weight: bold;
+    color: black;
     
 }
 
